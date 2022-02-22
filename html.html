@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css.css">
+<head>
+	<meta charset="utf-8">
+	<title>HTML</title>
+</head>
+<style>
+  	
+  	p{
+  		font-size: 18px;
+  	}
+  	mark{
+  	
+  	font-weight: bold;
+  		color:black;
+  		border-radius: 10px;
+  	}
+  		body{
+  		background-color: rgb(113, 216, 244);
+
+  	}
+  	.h1{
+  		background-color: lavenderblush;
+  		padding: 20px 20px;
+  	}
+  	h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+@media only screen and (max-width: 320px ) and (min-width: 0px) {
+  .topimg {
+  width:300px ;
+  height: 320px;
+    
+  }
+   .btmimg{
+  	width: 200px;
+  }
+}
+@media only screen and (max-width: 375px ) and (min-width: 320px) {
+  .topimg {
+  width:325px ;
+  height: 320px;
+    
+  }
+  .btmimg{
+  	width: 250px;
+  }
+}
+@media only screen and (max-width: 425px ) and (min-width: 375px) {
+  .topimg {
+  width:375px ;
+  height: 320px;
+    
+  }
+}
+@media only screen and (max-width: 768px ) and (min-width: 425px) {
+  .topimg {
+  width:425px ;
+  height: 320px;
+    
+  }
+}
+@media only screen and (max-width: 1024px ) and (min-width: 768px) {
+  .topimg {
+  width:768px ;
+  height: 320px;
+    
+  }
+  
+}
+@media only screen and (max-width: 1424px ) and (min-width: 1024px) {
+  .topimg {
+  width:1334px ;
+  height: 320px;
+    
+  }
+  .btmimg{
+  	width: 400px;
+  }
+}
+  	</style>
+<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <img src="images\logo11.png" class="navbar-brand" width="90" height="70" style="border-radius: 10px; " ><span style="font-weight: bold;color:white;font-family: verdana;font-size: 30px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">Innoviz</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<li class="nav-item">
+
+					<a href="index.html" class="nav-link"><i class="fas fa-home"></i>&nbspHOME</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="about.html" class="nav-link"><i class="fas fa-user"></i>&nbspABOUT</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a  class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#"><i class="fas fa-book-reader"></i>&nbspCOURSES</a>
+				
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="html.html">HTML</a>
+					<a href="css.html" class="dropdown-item">CSS</a>
+					<a href="bootstrap.html" class="dropdown-item">BOOTSTRAP</a>
+						<a href="php.html" class="dropdown-item">PHP</a>
+						<a href="java.html" class="dropdown-item">JAVA</a>
+				</div>
+			</li>
+
+
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html" ><i class="fas fa-mobile"></i>&nbspCONTACT US</a>
+					
+				</li>
+
+				<li class="nav-item">
+					<a href="service.html" class="nav-link"><i class="fas fa-cog"></i>&nbspSERVICES</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+			<div>
+				<img src="images\htmlimg.png" class="topimg">
+			</div><br><br><br>
+			
+
+<div class="container border border-info" style="background-color:cyan; border-radius: 30px;padding: 10px 10px; ">
+	<h2>ABOUT HTML</h2>
+</div>
+
+
+<br>
+
+<div class="container" style="background-color: mistyrose;border-radius: 30px;">
+	<br><br>
+	<p>
+HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.
+<br><br>
+<mark>Hyper Text:</mark> HyperText simply means "Text within Text." A text has a link within it, is a hypertext. Whenever you click on a link which brings you to a new webpage, you have clicked on a hypertext. HyperText is a way to link two or more web pages (HTML documents) with each other.
+<br><br>
+<mark>Markup language:</mark> A markup language is a computer language that is used to apply layout and formatting conventions to a text document. Markup language makes text more interactive and dynamic. It can turn text into images, tables, links, etc.
+<br><br>
+<mark>Web Page:</mark> A web page is a document which is commonly written in HTML and translated by a web browser. A web page can be identified by entering an URL. A Web page can be of the static or dynamic type. With the help of HTML only, we can create static web pages.
+<br><br>
+</p>
+</div>
+
+ <br>
+<br>
+
+</div>
+<br>
+<div class="container border border-info " style="background-color: cyan;padding: 10px 10px;border-radius: 30px; ">
+	<h2>FEATURES!</h2>
+</div>
+<br>
+
+<div class="container" style="background-color: mistyrose;border-radius: 30px;">
+	<br>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp It is a very easy and simple language. It can be easily understood and modified.</p>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp It is very easy to make an effective presentation with HTML because it has a lot of formatting tags.</p>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp It is a markup language, so it provides a flexible way to design web pages along with the text.</p>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp It facilitates programmers to add a link on the web pages (by html anchor tag), so it enhances the interest of browsing of the user.</p>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp  It is platform-independent because it can be displayed on any platform like Windows, Linux, and Macintosh, etc.</p>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp It facilitates the programmer to add Graphics, Videos, and Sound to the web pages which makes it more attractive and interactive.</p>
+
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML is a case-insensitive language, which means we can use tags either in lower-case or upper-case</p>
+	<br>
+
+	</div>
+
+<br><br>
+
+<div class="container border border-info " style="background-color: cyan;padding: 10px 10px;border-radius: 30px; ">
+	<h2>COURSE SYLLABUS</h2>
+</div>
+<br><br>
+
+<div class="container" style="background-color: mistyrose;border-radius: 30px;">
+	<br><br>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp Introduction</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML Tags</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML Id</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML Class</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp Tables</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML Colors</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML Forms</p>
+	<p><i class="fas fa-angle-double-right"></i>&nbsp HTML Media and more......</p>
+	<br>
+
+	</div>
+
+
+
+<br><br>
+<div class="container-fluid" style="background-color:rgb(0, 13, 70); ">
+	<br>
+	<div class="row">
+		<div class="col-sm-8 text-center ">
+			<img src="images\enrol1.jpg" class="btmimg"  style=" ">
+			
+		</div>
+
+ <div class=" col-sm-4 text-center" style="margin-top: 60px; ">
+     <button class="btn bg bg-primary justify-content-center btn-outline-success  " type="button"><a href="enroll.html" style="text-decoration: none; color:white;margin-top: 30px; ">ENROLL THE COURSE</a></button>
+ </div>
+</div>
+<br>
+</div>
+<br>
+<div class="h1 text-center">
+	<h1>For More details</h1>
+</div>
+
+<div class="container-fluid" style="background-color:rgb(163, 173, 172); ">
+	<br>
+	<div class="row">
+<div class="col-sm-8 text-center  ">
+			<img src="images\contactimg3.jpg" class="btmimg"  style=" ">
+			
+		</div>
+ <div class=" btmimg" style="margin-top: 30px;margin-left: 40px; ">
+     <button class="btn bg bg-primary justify-content-center btn-outline-success  " type="button" style="margin-left: 80px; "><a href="contact.html" style="text-decoration: none; color:white;margin-top: 30px; ">CONTACT US</a></button>
+ </div>
+		
+
+</div>s
+<br>
+</div>
+<br><br>
+
+
+
+
+
+
+
+</body>
+<footer>
+	<div class="container-fluid cf" style="background-color: indigo; ">
+		<br><br>
+		<div class="row" style="padding-bottom: 20px; ">
+			<div class="col-sm-4" style="margin-left: 10px; " >
+				<img src="images\footerlogo.png" class="navbar-brand" width="90" height="70" style="border-radius: 10px; " ><span style="font-weight: bold;color:lightblue;font-family: verdana;font-size: 30px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">Innoviz</span>
+<br>
+<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="index.html">HOME</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="about.html">ABOUT US</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="service.html">SERVICES</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="contact.html">CONTACT US</a>
+				<br>
+
+			</div>
+			<div class="col-sm-3">
+	<h4 style="background-color: lightblue;border-radius: 100px;text-align: center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; ">COURSES</h4><br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="html.html">HTML</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="css.html">CSS</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="bootstrap.html">BOOTSTRAP</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="php.html">PHP</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="java.html">JAVA</a>
+				<br>
+			</div>
+			<br>
+			<div class="col-sm-4">
+						<h4 style="background-color: lightblue;border-radius: 100px;text-align: center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; ">CONTACT</h4><br>
+				
+				<i class="fas fa-home hm"></i>&nbsp&nbsp<span>11,ANNA NAGAR COIMBATORE</span>
+				<br>
+				<i class="fas fa-envelope"></i>&nbsp&nbsp<span>newmailwebsite@gmail.com</span>
+				<br>
+				<i class="fas fa-clock"></i>&nbsp&nbsp<span style="color:green; ">TIMING</span>
+				<br>
+				<i class="far fa-dot-circle"></i>&nbsp&nbsp<span>Monday - Friday, 10:00AM - 05:00PM</span>
+				<br>
+
+<i class="far fa-dot-circle"></i>&nbsp&nbsp	<span>Saturday, 10:00AM - 05:00PM</span>
+<br>
+<i class="far fa-dot-circle"></i>&nbsp&nbsp<span>Sunday, 10:00AM - 01:00PM</span>
+<br>
+			</div>
+			<br>
+<br>
+		</div>
+		<div class="row" style="background-color: lightblue; ">
+			<div class="col-sm-12">
+				<br>
+			<div class="text-center">
+				<a href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-3x"></i></a>&nbsp
+				<br>
+				<br>
+				<p style="font-weight: bold; ">Copyright ©2021 All rights reserved | Innoviz</p>
+			</div>
+			
+		</div>
+		</div>
+	</div>
+</footer>
+</html>
